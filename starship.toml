@@ -1,23 +1,4 @@
-
-
-
-
-
-
 add_newline = false
-command_timeout = 500
 [line_break]
 disabled = true
-scan_timeout = 10
-# Move the directory to the second line
-format = "$all$directory$character"
-[battery]
-charging_symbol = "⚡️"
-[username]
-show_always = true
-style_user = "bold white"
-format = "[$user]($style)"
-[time]
-disabled = false
-format = "[$time]($style)"
-time_format = "%H:%M"
+command_timeout = 5
